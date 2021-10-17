@@ -1,0 +1,151 @@
+Conditional-
+
+There is three conditin- if/ elif / else 
+
+The if come first and else come last 
+
+elif is the differnt if can use multiple times between if and else, use it when you have another conditions and multiple conditions but you don't wunna use else, if you use else it's all over there no condition again so.. we use elif
+
+
+
+warnning - you can only use else for un sure or final conditions 
+
+you cant reuse variables in else , if u does it's will cause errors
+
+
+
+When your condition is ture use if - but by back
+
+up when your condition is false use else, when you have multiple conditions use elif. 
+
+When conditon in if goes wrong the condition change to elif or else, then the elif and else's condition is goes again. 
+
+# >   = greater than 
+
+# <     = less than 
+
+# >=    = Greater then or equal to 
+
+# <=    = Less than or equal to 
+
+# ==    = Qual to ( if you use = the valuse will be qual to ur veriable )
+
+# !=    = Not equal to
+
+7 % 2 = 2 + 2+ 2 + 1 ( so the remain is 1 ) 
+
+eg: 8 % 4 = 4 + 4 ( the remain is 0 ) 
+
+eg: 9 % 2 = 2 + 2 + 2+ 2+ 1 ( the remain is 1 ) pick the last number and + with the last number-( in 9 % 2 the last number is 2 so to complete 9 2 needs to addition 4th times
+
+and 1 so the last number 1 is the answer
+
+
+
+fact - % give you remainder after division  
+
+even number are the number that can be devided by 2 there is no float just int ( in using % that remain is always 0 and using / the remain is always int ) 
+
+odd number are the number that can't be devide by 2 - 73 % 2 will give you 1 . and the devide is 36.5 so there no int 
+
+Nested if / else:
+
+you can check another condition by using this 
+
+- if condition: ( when this condition is right the following code will be run)
+
+   -if another conditon: ( when this conditon is true the following code will be run ) 
+
+      -do this 
+
+   -else:
+
+     - do this 
+
+-else:
+
+    -do this        
+
+In building BMI calculator You should use BMI formula - Weight ( in kg ) / height **2 ) 
+
+
+
+first and shot code should be - 
+
+weight = float(input("Enter your weight")
+
+height = float (input("Enter your height")
+
+by using float the input will be auto float due to the use will put detail in 13.34 so.. 
+
+Multiple if -
+
+if condition1:
+
+   do A
+
+if condition2:
+
+   do B
+
+if condition3:
+
+   do C   
+
+# The condition that will show up no matter what happen in upward
+
+wunna_break = input("what is ur name")  
+
+You can also add multiple if in multiple conditions 
+
+for example - the dirrerent ages of kids wunna eat ice-cream so there is multiple conditions but no matter what happen they must eat ice-cream so step 1 will ask their age and step 2 will give all of them ice-crem no matter what age in they are. That is where multiple IF is come out
+
+
+
+if you wunna use += in mulitiple if 
+
+use main name in start of code 
+
+eg: number = 0 ( main ) 
+
+if name == 0:
+
+    number += 2 
+
+
+
+like that . easy. But if you don't add main the error will show name is not defind cuz' youd'nt defnd the name first 
+
+
+
+
+
+
+
+using mulitple conditons in one line - ( and , or , not ) 
+
+A and B is false :          they both need to be true if one false all false
+
+C or D is false :
+
+not E  - reverse function, if e is true the output become false , if false the output become true eg: not e == 0 ( main is e = 1 )
+
+the output - true 
+
+not is reverse function if you input true it's will output false, if you input true it's will output false 
+
+eg:
+
+n = 10 
+
+not n > 12
+
+output : True
+
+name = int(str(4) + str(3)) 
+
+
+
+the output is 43 but by converting with int you wont get any errors while additon with later in int + int 
+
+
