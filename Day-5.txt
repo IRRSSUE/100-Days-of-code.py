@@ -1,0 +1,57 @@
+For LOOP
+
+#do something to each items
+
+
+
+name = ["austin", "rolert", "lulam"]
+
+
+
+for n in name:
+
+      print(n) 
+
+
+
+the output is 
+
+austin 
+
+rolert 
+
+lulam 
+
+
+
+explain: 
+
+first n discribe fist to austin 
+
+and n become austin 
+
+and the next step is printing the n so n is austin so print ( austin ) 
+
+so austin is print out 
+
+and loop back and check agian rolert 
+
+and loop become again so on... 
+
+
+
+note: that for loop name is tamporary variable that can only use in for loop statement itself
+
+
+
+in for loop indentend is important becuase if some code line is outside the indentend ( to space or not under for loop ) these cods will not excutue in for loop 
+
+
+
+if list is int and you wanna know what the value of that? use sum(name) so it's will adding all the number on the list and print it out. [13,24,535] output - 322 (may be xD ) 
+
+
+
+the differnet between len and sum is len count the numebers or string and sum adding the numbers
+
+Bacically for loop is a loop that can loop the list or in the range 
