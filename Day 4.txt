@@ -1,0 +1,145 @@
+first you needs to import " random " module
+
+The questing is what is module - a module is a package that can use in mulitple or different. When you only writing python code it's will be mess so The python team creat a modules and so you can use many different codes from that module. 
+
+randint(number start, number end) 
+
+    randint is one of the package form random module that can do random in range of numbers 
+
+eg: randint(3,10) 
+
+the code will be print it out like.. - 3, or 5, or 2 so on 
+
+note: the randint package will not print out the last number " 10 " 
+
+if you want to random to floating number (0.0, 0.4) 
+
+use random(number, numberend) 
+
+eg: random.random(0.0, 4.2)
+
+
+
+the output will be = 0.3 , 0.5, 3.5 so on
+
+list ( to manage or store data ) 
+
+
+
+                       0             1             2
+
+fruits = ["cherry", "Apple" , "Pear"]
+
+                     -3              -2          -1
+
+
+
+if you wanna add new data to a list use .append() 
+
+[2:] start from data "2" of the list
+
+[:] return the whole list 
+
+list variable + [ new datas ] = adding new list into existing list  
+
+note: only one item can add by using .append()
+
+
+
+you can use .split() to separating the sentence or list 
+
+eg: list = "Welcome to my heart babi"
+
+l = list.split(", ")
+
+print(l)
+
+
+
+output:         ["wlcome", "to", "my", "heart", "babi"]
+
+
+
+.shuffle() will random the list | note shuffle will generate random list with random place. 
+
+eg: 
+
+list = [Aye, yee, mon, aung]
+
+random.shuffle(list)
+
+
+
+output: [yee, aung, aye, mon]
+
+you can choice random from string list by using len + randint 
+
+
+
+first you needs to calculate the numbers of list and then nomatter how much string are the place is always int( 0 to 1 ) so you can use randint to call the place 
+
+.choice() 
+
+random.choice(list) will pick random number or string from list 
+
+eg: 
+
+import random
+
+list = ["aye", "yee", "mon", "aung"]
+
+r = random.choice(list)
+
+print(r)
+
+
+
+output:
+
+aye or yee or mon or aung 
+
+
+
+.extend() is can use to add multiple list to one list 
+
+eg:
+
+fruits = ['apple', 'banana', 'cherry'] 
+
+
+
+cars = ['Ford', 'BMW', 'Volvo']
+
+
+
+fruits.extend(cars)
+
+OUTPUT: 
+
+['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+
+nested list - handling multiple list 
+
+
+
+list1 = [ blah balh ] 
+
+list2 = [ blah blah ]
+
+final = [ list1, list2]
+
+print(final)
+
+
+
+output: [blah blah blah blah ] 
+
+
+
+Day 4 end !! 
+
+You made it ! congrutation bro 
+
+relax, go walk and get ready for day 5
+
+
