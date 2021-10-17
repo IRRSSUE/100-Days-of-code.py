@@ -1,0 +1,161 @@
+String - "hellow rdl dfsdf" , "12323", "-2323", "232.121" 
+
+Intenger - 1221, 223, 36
+
+Float - 323.13 , 321.21, -56.2
+
+Bool - True , False 
+
+You cant contain String + init in one line or command butt.... if you wunna do just put str or int just infont of piece you wunna convert 
+
+eg; name = " akdjfa " - this is string and converting this into int -> int(name) 
+
+hint( you can check with type() if you don't sure what type it's ) 
+
+
+
+note: only str and int cant be contain in one line , other can both. 
+
+you can use [ ] to check place or contorl what ever it's 
+
+
+
+my code of solution for - 
+
+Question; write code for input 34 to output 3 + 4 = 7
+
+solution - two_number = input("Type a two number: ")
+
+print(int(two_number[0]) + int(two_number[1]))
+
+
+
+explain: first you need to check the type of input function 
+
+so you can get information , think about [ ] think how to use it in print.By The control of [ ] you can print first number and second number form input [0] + [1] so without using .spilt() we got an answer !! 
+
+the most important is if they are still strings you cant calculate the two number, so we should use int( ) 
+
+Math Orders - 
+
+1 - Parentheses > ( )
+
+2 - Exponents and Roots > ** and /-
+
+3 - Multiplication > *  - Multiplication and divison are the same order the first come one will solve first 
+
+4 - Division > /
+
+5 - Addition > +
+
+6 - Subtraction > - 
+
+round( ) 
+
+use round to get the nearly value of numbers like this 2.534345 , 3.333333 - they will print out - 3 and 3
+
+use can even use detial what you want to roud for 
+
+example by using round() we can get near point and round( number, the number that you want to round) 
+
+
+
+eg: round(2/3, 0) or (2.5555555) = 2.6 so that you can get more detail information
+
+0 mean the place behind ( .0) 
+
+1 mean the place behind ( .3 so on) 
+
+2 mean the place beign (.23 so on ) 
+
+
+
+in other way you can alos use ( // ) 
+
+eg: ( 8 // 3 ) so the answer came out as int and not float by not using round 
+
+
+
++= , /= , -= so on- 
+
+that mean is shotcut of : 
+
+age = 15 
+
+age = age + 1 
+
+
+
+using += :
+
+
+
+age = 15
+
+age += 1 
+
+# age is 15 due to using ( = ) so 15 = age and age = 15 in mathematics way 
+
+
+
+The result will be same but... most advance so they don't think you're begineer as fuck xD 
+
+F- String: is usually handling mulitiple different data type ( bool, str, float, int) 
+
+
+
+tachenically you can't use different data in one line so when you using it you put str or something infront of them and adding + to use once. It's really fucking long and painful 
+
+so that's where f'string come out  
+
+Before using f string:
+
+score = 0 
+
+print("your score is" + str(score)) 
+
+
+
+after : 
+
+score = 0
+
+print(f"your score is {score}") 
+
+if you have more just add another {} after that 
+
+ag: print(f"your score is {score}{more}")   You just needs to add differnet data types into {} and put f before using them !! 
+
+
+
+input always make strings so we should put int if we want numbers or int
+
+
+
+age = input("age") 
+
+
+
+put int in another line 
+
+
+
+what_is_your_age = int(age)
+
+
+
+now you can use the rest as int age 
+
+"{:.2f}"  the formula of getting 13.6 form 13.60
+
+"{:.3f}" 13.600 may be 
+
+
+
+
+
+Day 2 Done !!! 
+
+irrssue/9/9/2021
+
+
