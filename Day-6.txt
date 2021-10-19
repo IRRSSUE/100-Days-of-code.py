@@ -1,0 +1,45 @@
+python is already have a lot of build in functions - checkin docs.python.org/functions
+
+
+
+print() len() ectt.... these are functions that already built by Python 
+
+B U T. what if we wanna make ( use ) our own functon? will use 
+
+def name():  
+
+
+
+so you good to gooooo.. !!
+
+
+
+how do we call the function? just call it's name !! 
+
+eg: 
+
+
+
+def print_str():
+
+       print("this is string xD")
+
+
+
+print_str() 
+
+
+
+the reason I named print_str not print is that name will confuse ( mix ) with function child ( idk what to said I mean print("this is staing xD") so.. just give different names that not smiller with keywords
+
+
+
+functions are really really important when you wanna reuse ( using again and again ).
+
+
+
+W H I L E loop 
+
+while loop is different from loop, it infinite loop when the condition is trure but it's will stop when false - 
+
+
